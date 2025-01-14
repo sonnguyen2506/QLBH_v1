@@ -13,6 +13,7 @@ namespace DAL_QLBanHang
         //static string strConnection = System.Configuration.ConfigurationManager.ConnectionStrings["abc"].ConnectionString;
         //protected  SqlConnection _conn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\QLBanHang1.mdf;Integrated Security=True"); //OK
         //protected SqlConnection _conn = new SqlConnection(strConnection);        
-        //Test git chạy duoc chua
+        //Test git chạy duoc chua lan 2
+        //Sua lan 3
     } 
 }
