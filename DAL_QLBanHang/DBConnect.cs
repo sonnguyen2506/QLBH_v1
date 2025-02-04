@@ -15,6 +15,6 @@ namespace DAL_QLBanHang
         //protected SqlConnection _conn = new SqlConnection(strConnection);        
         //Test git chạy duoc chua lan 2
         //Sua lan 3
-        //Sua lan 4a
+        //Sua lan 4b
     } 
 }
