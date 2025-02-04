@@ -147,7 +147,7 @@ namespace TemplateProject1_QLBanHang
                 //To send an email we must first create a new mailMessage(an email) to send.
                 MailMessage Msg = new MailMessage();
                 // Sender e-mail address.
-                Msg.From = new MailAddress("sender@gmail.com");//Nothing But Above Credentials or your credentials (*******@gmail.com)
+                Msg.From = new MailAddress("sonnguyen.tech@gmail.com");//Nothing But Above Credentials or your credentials (*******@gmail.com)
                 // Recipient e-mail address.
                 Msg.To.Add(email);
                 // Assign the subject of our message.
@@ -167,6 +167,11 @@ namespace TemplateProject1_QLBanHang
                 // If Mail Doesnt Send Error Mesage Will Be Displayed
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

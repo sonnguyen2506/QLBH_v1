@@ -49,17 +49,19 @@ namespace TemplateProject1_QLBanHang
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(42, 57);
+            this.label1.Location = new System.Drawing.Point(56, 70);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(222, 26);
+            this.label1.Size = new System.Drawing.Size(277, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng Nhập Hệ Thống";
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(18, 116);
+            this.txtemail.Location = new System.Drawing.Point(24, 143);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(274, 20);
+            this.txtemail.Size = new System.Drawing.Size(364, 22);
             this.txtemail.TabIndex = 1;
             // 
             // btndangnhap
@@ -69,9 +71,10 @@ namespace TemplateProject1_QLBanHang
             this.btndangnhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndangnhap.ForeColor = System.Drawing.Color.White;
-            this.btndangnhap.Location = new System.Drawing.Point(42, 219);
+            this.btndangnhap.Location = new System.Drawing.Point(56, 270);
+            this.btndangnhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndangnhap.Name = "btndangnhap";
-            this.btndangnhap.Size = new System.Drawing.Size(204, 28);
+            this.btndangnhap.Size = new System.Drawing.Size(272, 34);
             this.btndangnhap.TabIndex = 5;
             this.btndangnhap.Text = "Đăng Nhập";
             this.btndangnhap.UseVisualStyleBackColor = false;
@@ -82,21 +85,24 @@ namespace TemplateProject1_QLBanHang
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.checkBox1.Location = new System.Drawing.Point(18, 185);
+            this.checkBox1.Location = new System.Drawing.Point(24, 228);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(148, 21);
+            this.checkBox1.Size = new System.Drawing.Size(172, 24);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Ghi Nhớ Tài Khoản";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(15, 96);
+            this.label2.Location = new System.Drawing.Point(20, 118);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 17);
+            this.label2.Size = new System.Drawing.Size(139, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Email Đăng Nhập";
             // 
@@ -105,18 +111,20 @@ namespace TemplateProject1_QLBanHang
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(15, 139);
+            this.label3.Location = new System.Drawing.Point(20, 171);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 17);
+            this.label3.Size = new System.Drawing.Size(80, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Mật Khẩu";
             // 
             // txtmatkhau
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(18, 159);
+            this.txtmatkhau.Location = new System.Drawing.Point(24, 196);
+            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmatkhau.Name = "txtmatkhau";
             this.txtmatkhau.PasswordChar = '*';
-            this.txtmatkhau.Size = new System.Drawing.Size(274, 20);
+            this.txtmatkhau.Size = new System.Drawing.Size(364, 22);
             this.txtmatkhau.TabIndex = 2;
             // 
             // btnQuenmk
@@ -126,9 +134,10 @@ namespace TemplateProject1_QLBanHang
             this.btnQuenmk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuenmk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuenmk.ForeColor = System.Drawing.Color.DimGray;
-            this.btnQuenmk.Location = new System.Drawing.Point(169, 183);
+            this.btnQuenmk.Location = new System.Drawing.Point(225, 225);
+            this.btnQuenmk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnQuenmk.Name = "btnQuenmk";
-            this.btnQuenmk.Size = new System.Drawing.Size(123, 23);
+            this.btnQuenmk.Size = new System.Drawing.Size(164, 28);
             this.btnQuenmk.TabIndex = 4;
             this.btnQuenmk.Text = "Quên Mật Khẩu?";
             this.btnQuenmk.UseVisualStyleBackColor = false;
@@ -137,9 +146,10 @@ namespace TemplateProject1_QLBanHang
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(128, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(171, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(67, 52);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -151,9 +161,10 @@ namespace TemplateProject1_QLBanHang
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(42, 253);
+            this.button3.Location = new System.Drawing.Point(56, 311);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(204, 28);
+            this.button3.Size = new System.Drawing.Size(272, 34);
             this.button3.TabIndex = 6;
             this.button3.Text = "Thoát";
             this.button3.UseVisualStyleBackColor = false;
@@ -162,10 +173,10 @@ namespace TemplateProject1_QLBanHang
             // FrmDangNhap
             // 
             this.AcceptButton = this.btndangnhap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(307, 293);
+            this.ClientSize = new System.Drawing.Size(409, 361);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnQuenmk);
@@ -178,6 +189,7 @@ namespace TemplateProject1_QLBanHang
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
